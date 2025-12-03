@@ -1,4 +1,4 @@
-w<%@ page import="java.util.List" %>
+<%@ page import="java.util.List" %>
 <%@ page import="com.model.Student" %>
 <%@ include file="header.jsp" %>
 

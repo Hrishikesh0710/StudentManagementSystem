@@ -26,7 +26,6 @@ public class AdminLogin extends HttpServlet {
         if (valid) {
             HttpSession session = req.getSession();
             session.setAttribute("admin", username);
-
             resp.sendRedirect("index.jsp");
 
         } else {
